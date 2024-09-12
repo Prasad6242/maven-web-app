@@ -1,4 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Maven-web-app</title>
 <body>
 <h1><font color='red'> Welcome to Ashok IT - Software Training Institute <font></h1>
 <h2>Learn Here.. Lead Anywhere..!! </h2>
@@ -8,4 +11,5 @@
   <h2> Call Us : + 91 - 99 85 39 66 77 </h2>
 
 </body>
+</head>
 </html>
