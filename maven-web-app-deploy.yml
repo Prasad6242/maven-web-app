@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: prasad6242/mavenwebapp:${BUILD_NUMBER}
+      image: prasad6242/mavenwebapp
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
@@ -28,7 +28,7 @@ kind: Service
 metadata:
  name: mavenwebappsvc
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
    app: mavenwebapp
   ports:
